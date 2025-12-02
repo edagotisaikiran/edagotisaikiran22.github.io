@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Edagoti Sai Kiran — AI & ML Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Edagoti <span class="accent">Sai Kiran</span></h1>
+        <p class="subtitle">AI & Machine Learning • Computer Vision • Python</p>
+      </div>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn-outline" href="https://drive.google.com/uc?export=view&id=1rTG6uDfmM5h7i85HqLyfMxjAa52OMPIP" target="_blank" rel="noopener">View Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h2>Building practical AI solutions — from computer vision to healthcare screening.</h2>
+          <p>AI & ML graduate with hands-on experience in R-CNN object detection and CNN-based medical image classification. I build reproducible projects and clean code you can explore on GitHub.</p>
+
+          <div class="cta-row">
+            <a class="btn-primary" href="#projects">View Projects</a>
+            <a class="btn-ghost" href="https://github.com/edagotisaikiran22.github.io" target="_blank">My GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <!-- Replace with an actual portrait or illustration -->
+          <div class="card">
+            <img src="profile-placeholder.svg" alt="Profile placeholder" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3 class="section-title">Featured Projects</h3>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <img class="project-cover" src="traffic-light-cover.svg" alt="Traffic Light Detection" />
+          <div class="project-body">
+            <h4>Traffic Light Detection (R-CNN)</h4>
+            <p>R-CNN based real-time object detection pipeline to locate and classify traffic lights under varied environmental conditions.</p>
+            <div class="meta">
+              <span>Python • TensorFlow • OpenCV</span>
+              <a class="link" href="https://github.com/edagotisaikiran22.github.io/traffic-light-detection" target="_blank">View on GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="project-cover" src="diabetic-retinopathy-cover.svg" alt="Diabetic Retinopathy Detection" />
+          <div class="project-body">
+            <h4>Diabetic Retinopathy Detection</h4>
+            <p>CNN and ML based classification pipeline for retinal fundus images with preprocessing, augmentation and model evaluation.</p>
+            <div class="meta">
+              <span>Python • Keras • Scikit-learn</span>
+              <a class="link" href="https://github.com/edagotisaikiran22.github.io/diabetic-retinopathy-detection" target="_blank">View on GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3 class="section-title">About Me</h3>
+      <p>I hold a B.Tech in AI & Machine Learning from Hyderabad Institute of Technology and Management (CGPA 7.14). Completed a 162-hour Microsoft NIIT certification in AI & Data Analytics and a full-stack internship at Swecha. My work focuses on practical ML/DL solutions in computer vision and healthcare.</p>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
+        <li>Computer Vision</li>
+        <li>AWS basics</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3 class="section-title">Contact</h3>
+      <p>Email: <a href="mailto:edagotisaikiranraj@gmail.com">edagotisaikiranraj@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/edagotisaikiran22.github.io" target="_blank">github.com/YOUR_USERNAME</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/https://www.linkedin.com/in/saikiran04" target="_blank">linkedin.com/in/YOUR_PROFILE</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Edagoti Sai Kiran • Built with HTML & CSS</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
