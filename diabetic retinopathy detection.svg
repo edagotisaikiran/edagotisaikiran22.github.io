@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#06b6d4"></stop>
+      <stop offset="1" stop-color="#6c63ff"></stop>
+    </linearGradient>
+    <style>
+      .bg{fill:#071226}
+      .title{font-family:Inter,Arial,sans-serif; font-weight:700; font-size:44px; fill:#fff}
+      .subtitle{font-family:Inter,Arial,sans-serif; font-weight:600; font-size:18px; fill:#dfefff}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg"></rect>
+  <rect x="60" y="80" width="1080" height="540" rx="20" fill="url(#g2)" opacity="0.10"></rect>
+  <g transform="translate(90,120)">
+    <text x="0" y="48" class="title">Diabetic Retinopathy</text>
+    <text x="0" y="92" class="subtitle">Detection using Deep Learning</text>
+
+    <g transform="translate(0,150)">
+      <rect x="0" y="0" width="420" height="420" rx="20" fill="#081226" opacity="0.6"></rect>
+      <circle cx="210" cy="210" r="135" fill="url(#g2)" opacity="0.95"></circle>
+      <circle cx="210" cy="210" r="95" fill="#071122" opacity="0.28"></circle>
+    </g>
+  </g>
+
+  <g transform="translate(560,240)">
+    <rect width="480" height="260" rx="18" fill="#061025" opacity="0.6"></rect>
+    <text x="24" y="40" class="subtitle">Image preprocessing • CNN • Evaluation</text>
+    <text x="24" y="80" class="subtitle">Accuracy, Precision, Recall analysis</text>
+  </g>
+</svg>
